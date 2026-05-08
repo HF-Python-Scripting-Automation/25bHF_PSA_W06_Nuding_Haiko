@@ -4,7 +4,6 @@ import sys
 import argparse
 from utils.logger_config import get_aufgabe_01_logger
 
-
 def main(args: argparse.Namespace) -> int:
     """
     Performs local log analysis on OpenSSH_2k.log to find successful logins.
@@ -12,24 +11,32 @@ def main(args: argparse.Namespace) -> int:
     logger = get_aufgabe_01_logger()
     logfile = "OpenSSH_2k.log"
 
+    # Task essence and regex definition for observability
+    task_essence: str = "Extract successful SSH logins (User/IP) from local log file"
+    regex_pattern: str = r"Accepted password for (\w+) from ([\d.]+)"
+
+    # Debugging logs for architectural insights
+    logger.debug(f"Task Essence: {task_essence}")
+    logger.debug(f"Applied Regex Pattern: {regex_pattern}")
+
     logger.info(f"Starting analysis of {logfile} on Kali Linux client")
 
     try:
         # Resource Safety: Using context manager with explicit encoding
         with open(logfile, "r", encoding="utf-8") as file:
             for line in file:
-                # Check for successful login keyword
+                # Core logic: Filter for successful login events
                 if "Accepted password" in line:
                     clean_line: str = line.strip()
                     logger.info(f"Found match: {clean_line}")
 
-                    # Regex extraction for username and IP address
-                    match = re.search(r"Accepted password for (\w+) from ([\d.]+)", clean_line)
+                    # Regex extraction logic
+                    match = re.search(regex_pattern, clean_line)
 
                     if match:
                         user: str = match.group(1)
                         ip: str = match.group(2)
-                        logger.info(f"Successful login: User {user} from IP {ip}")
+                        logger.info(f"Successful login identified: User {user} from IP {ip}")
 
         return 0
 
