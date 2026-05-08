@@ -1,25 +1,17 @@
 # Path: aufgaben/aufgabe_04.py
 import re
 import sys
-import os
 import argparse
 import paramiko
 from utils.logger_config import get_aufgabe_04_logger
-
-# Robustness: Ensure project root is in path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-try:
-    logger = get_aufgabe_04_logger()
-except ModuleNotFoundError:
-    print("Critical: utils.logger_config not found.")
-    sys.exit(1)
 
 
 def main(args: argparse.Namespace) -> int:
     """
     Connects to server-1 and identifies failed SSH login attempts using sudo.
     """
+    logger = get_aufgabe_04_logger()
+
     # Infrastructure details
     host: str = "192.168.110.10"
     user: str = "vmadmin"

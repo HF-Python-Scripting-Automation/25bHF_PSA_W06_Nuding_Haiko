@@ -1,20 +1,10 @@
 # Path: aufgaben/aufgabe_05.py
 import re
 import sys
-import os
 import time
 import argparse
 import paramiko
 from utils.logger_config import get_aufgabe_05_logger
-
-# Robustness: Ensure the project root is in the search path for 'utils'
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-try:
-    from utils.logger_config import get_aufgabe_05_logger
-except ModuleNotFoundError:
-    print("Critical: utils.logger_config not found. Run from project root.")
-    sys.exit(1)
 
 
 def main(args: argparse.Namespace) -> int:
