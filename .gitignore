@@ -1,0 +1,25 @@
+# Path: .gitignore
+
+# --- IDE Specific ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Python Environment & Bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Logs & Dynamic Data ---
+*.log
+outputs/

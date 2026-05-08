@@ -1,0 +1,5 @@
+import logging
+from psa_utils.logger import get_logger
+
+def get_aufgabe_01_logger():
+    return get_logger("Aufgabe-01", filename="aufgabe-01.log", level=logging.DEBUG, clear=True)
