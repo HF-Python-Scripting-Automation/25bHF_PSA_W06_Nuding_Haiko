@@ -5,13 +5,15 @@ Es automatisiert die Verbindung zu verschiedenen Servern, extrahiert Logdaten un
 
 ## Projektstruktur
 
-.
-├── aufgaben/           # Enthält alle Python-Skripte für die Aufgaben 1 bis 14
-├── logs/               # Log-Ausgaben der einzelnen Skripte (persistiert)
-├── outputs/            # Generierte Dateien (z.B. blacklist_ips.txt aus Aufgabe 2)
-├── utils/              # Hilfsmodule für die zentrale Logger-Konfiguration
-├── requirements.txt    # Erforderliche Python-Bibliotheken (paramiko)
-└── OpenSSH_2k.log      # Lokale Logdatei für die Aufgaben 1 & 2
+```text
+  .
+  ├── aufgaben/           # Alle Skripte (01-14)
+  ├── logs/               # Log-Files pro Aufgabe
+  ├── outputs/            # Ergebnisse (z.B. blacklist_ips.txt)
+  ├── utils/              # Logger-Konfiguration
+  ├── requirements.txt    # Abhängigkeiten
+  └── OpenSSH_2k.log      # Lokales Log-File
+```
 
 ## Voraussetzungen
 
