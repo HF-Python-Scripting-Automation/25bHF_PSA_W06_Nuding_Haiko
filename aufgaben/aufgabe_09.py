@@ -1,19 +1,9 @@
 # Path: aufgaben/aufgabe_09.py
 import re
 import sys
-import os
 import argparse
 import paramiko
 from utils.logger_config import get_aufgabe_09_logger
-
-# Ensure project root is in path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-try:
-    logger = get_aufgabe_09_logger()
-except ModuleNotFoundError:
-    print("Critical: utils.logger_config not found.")
-    sys.exit(1)
 
 
 def main(args: argparse.Namespace) -> int:
@@ -21,6 +11,7 @@ def main(args: argparse.Namespace) -> int:
     Connects to server-3 and counts HTTP 4xx status codes using the worksheet's
     recommended regex pattern and logic.
     """
+    logger = get_aufgabe_09_logger()
     # Infrastructure Details
     host: str = "192.168.110.12"
     user: str = "vmadmin"
