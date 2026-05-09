@@ -27,3 +27,6 @@ def get_aufgabe_08_logger():
 
 def get_aufgabe_09_logger():
     return get_logger("Aufgabe-09", filename="aufgabe-09.log", level=logging.DEBUG, clear=True)
+
+def get_aufgabe_10_logger():
+    return get_logger("Aufgabe-10", filename="aufgabe-10.log", level=logging.DEBUG, clear=True)
