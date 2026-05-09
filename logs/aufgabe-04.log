@@ -1,0 +1,5 @@
+[2026-05-09 01:34:24] |DEBUG| (Aufgabe-04) aufgabe_04.py:28 - Task Essence: Identify failed remote SSH login attempts via sudo
+[2026-05-09 01:34:24] | INFO| (Aufgabe-04) aufgabe_04.py:33 - Connecting to 192.168.110.10...
+[2026-05-09 01:34:25] | INFO| (Aufgabe-04) aufgabe_04.py:47 - Found 1 failed attempts on 192.168.110.10:
+[2026-05-09 01:34:25] | INFO| (Aufgabe-04) aufgabe_04.py:51 - [LOG-ENTRY]: 2026-05-09T01:20:49.300885+02:00 server-1 sshd[3295]: Failed password for invalid user user from 192.168.110.10 port 47976 ssh2
+[2026-05-09 01:34:25] |DEBUG| (Aufgabe-04) aufgabe_04.py:64 - SSH connection closed.

@@ -1,0 +1,10 @@
+[2026-05-09 02:51:00] |DEBUG| (Aufgabe-12) aufgabe_12.py:26 - Task Essence: Cross-server Uptime and Load Average Audit
+[2026-05-09 02:51:00] | INFO| (Aufgabe-12) aufgabe_12.py:33 - Connecting to 192.168.110.10...
+[2026-05-09 02:51:00] | INFO| (Aufgabe-12) aufgabe_12.py:47 - [LOAD-REPORT] Host: 192.168.110.10 | Load: 0.00, 0.00, 0.00
+[2026-05-09 02:51:00] |DEBUG| (Aufgabe-12) aufgabe_12.py:55 - Connection to 192.168.110.10 closed.
+[2026-05-09 02:51:00] | INFO| (Aufgabe-12) aufgabe_12.py:33 - Connecting to 192.168.110.11...
+[2026-05-09 02:51:01] | INFO| (Aufgabe-12) aufgabe_12.py:47 - [LOAD-REPORT] Host: 192.168.110.11 | Load: 0.00, 0.00, 0.00
+[2026-05-09 02:51:01] |DEBUG| (Aufgabe-12) aufgabe_12.py:55 - Connection to 192.168.110.11 closed.
+[2026-05-09 02:51:01] | INFO| (Aufgabe-12) aufgabe_12.py:33 - Connecting to 192.168.110.12...
+[2026-05-09 02:51:01] | INFO| (Aufgabe-12) aufgabe_12.py:47 - [LOAD-REPORT] Host: 192.168.110.12 | Load: 0.00, 0.00, 0.00
+[2026-05-09 02:51:01] |DEBUG| (Aufgabe-12) aufgabe_12.py:55 - Connection to 192.168.110.12 closed.

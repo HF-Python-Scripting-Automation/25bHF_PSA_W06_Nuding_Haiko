@@ -1,0 +1,6 @@
+[2026-05-09 01:29:54] |DEBUG| (Aufgabe-03) log_fetcher.py:23 - Task Essence: Verify SSH connectivity to server-1 and fetch system info
+[2026-05-09 01:29:54] |DEBUG| (Aufgabe-03) log_fetcher.py:24 - Target: vmadmin@192.168.110.10 | Remote Command: uname -a
+[2026-05-09 01:29:54] | INFO| (Aufgabe-03) log_fetcher.py:33 - Connecting to 192.168.110.10...
+[2026-05-09 01:29:54] | INFO| (Aufgabe-03) log_fetcher.py:37 - Successfully connected to 192.168.110.10
+[2026-05-09 01:29:54] | INFO| (Aufgabe-03) log_fetcher.py:47 - [SERVER-1 OUTPUT]: Linux server-1.smartlearn.lan 6.8.0-60-generic #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+[2026-05-09 01:29:54] |DEBUG| (Aufgabe-03) log_fetcher.py:63 - SSH session to 192.168.110.10 closed.

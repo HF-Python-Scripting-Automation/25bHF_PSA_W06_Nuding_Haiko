@@ -1,0 +1,9 @@
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:25 - Task Essence: Monitor disk space usage and alert on high occupancy
+[2026-05-09 02:43:28] | INFO| (Aufgabe-10) aufgabe_10.py:31 - Connecting to 192.168.110.11 to check disk usage...
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:54 - Partition check: 1% is within safe limits.
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:54 - Partition check: 4% is within safe limits.
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:54 - Partition check: 0% is within safe limits.
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:54 - Partition check: 0% is within safe limits.
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:54 - Partition check: 1% is within safe limits.
+[2026-05-09 02:43:28] | INFO| (Aufgabe-10) aufgabe_10.py:57 - Disk check completed. All partitions on 192.168.110.11 are below 80%.
+[2026-05-09 02:43:28] |DEBUG| (Aufgabe-10) aufgabe_10.py:66 - SSH connection closed.

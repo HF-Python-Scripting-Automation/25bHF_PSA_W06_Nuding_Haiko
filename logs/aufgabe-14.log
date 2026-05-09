@@ -1,0 +1,10 @@
+[2026-05-09 02:59:47] |DEBUG| (Aufgabe-14) aufgabe_14.py:31 - Task Essence: Docker Port Mapping Audit using Regex Capture Groups
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:37 - Connecting to 192.168.110.12 for Docker port mapping audit...
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:51 - Analyse der Metasploitable Port-Zuweisungen:
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:59 - [PORT-MAP]: Der externe Port 8080 leitet auf den internen Port 80 weiter.
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:59 - [PORT-MAP]: Der externe Port 1883 leitet auf den internen Port 1883 weiter.
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:59 - [PORT-MAP]: Der externe Port 3000 leitet auf den internen Port 3000 weiter.
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:59 - [PORT-MAP]: Der externe Port 445 leitet auf den internen Port 445 weiter.
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:59 - [PORT-MAP]: Der externe Port 2121 leitet auf den internen Port 21 weiter.
+[2026-05-09 02:59:47] | INFO| (Aufgabe-14) aufgabe_14.py:59 - [PORT-MAP]: Der externe Port 2222 leitet auf den internen Port 22 weiter.
+[2026-05-09 02:59:47] |DEBUG| (Aufgabe-14) aufgabe_14.py:73 - SSH Verbindung geschlossen.

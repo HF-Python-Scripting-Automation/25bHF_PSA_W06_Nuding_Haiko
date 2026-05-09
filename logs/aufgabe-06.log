@@ -1,0 +1,9 @@
+[2026-05-09 01:41:05] |DEBUG| (Aufgabe-06) aufgabe_06.py:25 - Task Essence: Identify webserver and version in DVWA Docker logs
+[2026-05-09 01:41:05] |DEBUG| (Aufgabe-06) aufgabe_06.py:26 - Applied Regex: (Apache|nginx)\/([\d\.]+)
+[2026-05-09 01:41:05] | INFO| (Aufgabe-06) aufgabe_06.py:32 - Connecting to 192.168.110.12...
+[2026-05-09 01:41:05] | INFO| (Aufgabe-06) aufgabe_06.py:37 - Locating DVWA container...
+[2026-05-09 01:41:05] | INFO| (Aufgabe-06) aufgabe_06.py:48 - Fetching logs for container: infra_dvwa_1
+[2026-05-09 01:41:05] | INFO| (Aufgabe-06) aufgabe_06.py:62 - Technology Identified: Apache
+[2026-05-09 01:41:05] | INFO| (Aufgabe-06) aufgabe_06.py:63 - Version Identified: 2.4.25
+[2026-05-09 01:41:05] | INFO| (Aufgabe-06) aufgabe_06.py:64 - Result: The application uses Apache version 2.4.25
+[2026-05-09 01:41:05] |DEBUG| (Aufgabe-06) aufgabe_06.py:75 - SSH session closed.

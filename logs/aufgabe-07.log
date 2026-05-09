@@ -1,0 +1,8 @@
+[2026-05-09 01:54:55] |DEBUG| (Aufgabe-07) aufgabe_07.py:36 - Task Essence: Identification of FTP access IPs via Log-Injection (Container-Internal)
+[2026-05-09 01:54:55] | INFO| (Aufgabe-07) aufgabe_07.py:42 - Connecting to 192.168.110.12...
+[2026-05-09 01:54:56] | INFO| (Aufgabe-07) aufgabe_07.py:56 - Extracting /var/log/vsftpd.log from container 'infra_metasploitable_1'...
+[2026-05-09 01:54:56] | INFO| (Aufgabe-07) aufgabe_07.py:81 - Success! Found 3 IPs with FTP interaction:
+[2026-05-09 01:54:56] | INFO| (Aufgabe-07) aufgabe_07.py:83 - [FTP-SOURCE]: 172.16.123.1
+[2026-05-09 01:54:56] | INFO| (Aufgabe-07) aufgabe_07.py:83 - [FTP-SOURCE]: 192.168.110.10
+[2026-05-09 01:54:56] | INFO| (Aufgabe-07) aufgabe_07.py:83 - [FTP-SOURCE]: 192.168.110.4
+[2026-05-09 01:54:56] |DEBUG| (Aufgabe-07) aufgabe_07.py:95 - SSH connection closed.

@@ -1,0 +1,7 @@
+[2026-05-09 02:46:09] |DEBUG| (Aufgabe-11) aufgabe_11.py:30 - Task Essence: Audit /etc/passwd for interactive users with /bin/bash shell
+[2026-05-09 02:46:09] | INFO| (Aufgabe-11) aufgabe_11.py:36 - Connecting to 192.168.110.10 for user account audit...
+[2026-05-09 02:46:09] | INFO| (Aufgabe-11) aufgabe_11.py:40 - Reading /etc/passwd content...
+[2026-05-09 02:46:09] | INFO| (Aufgabe-11) aufgabe_11.py:50 - Audit Complete: Found 2 interactive user(s).
+[2026-05-09 02:46:09] | INFO| (Aufgabe-11) aufgabe_11.py:53 - [USER-FOUND]: root
+[2026-05-09 02:46:09] | INFO| (Aufgabe-11) aufgabe_11.py:53 - [USER-FOUND]: vmadmin
+[2026-05-09 02:46:09] |DEBUG| (Aufgabe-11) aufgabe_11.py:64 - SSH connection closed.

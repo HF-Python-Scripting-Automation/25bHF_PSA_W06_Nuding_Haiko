@@ -19,7 +19,3 @@ ENV/
 .pytest_cache/
 .coverage
 htmlcov/
-
-# --- Logs & Dynamic Data ---
-*.log
-outputs/

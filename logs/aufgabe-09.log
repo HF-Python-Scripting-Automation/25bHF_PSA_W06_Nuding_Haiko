@@ -1,0 +1,6 @@
+[2026-05-09 02:33:06] |DEBUG| (Aufgabe-09) aufgabe_09.py:42 - Task Essence: Count HTTP 4xx client errors in Juice Shop logs
+[2026-05-09 02:33:06] | INFO| (Aufgabe-09) aufgabe_09.py:48 - Connecting to 192.168.110.12...
+[2026-05-09 02:33:06] | INFO| (Aufgabe-09) aufgabe_09.py:53 - Fetching logs for: infra_juice-shop_1
+[2026-05-09 02:33:06] | INFO| (Aufgabe-09) aufgabe_09.py:71 - Analysis Complete: Found 3 instances of HTTP 4xx errors.
+[2026-05-09 02:33:06] |DEBUG| (Aufgabe-09) aufgabe_09.py:72 - Breakdown: 0 via status code, 3 via error text.
+[2026-05-09 02:33:06] |DEBUG| (Aufgabe-09) aufgabe_09.py:81 - SSH connection closed.

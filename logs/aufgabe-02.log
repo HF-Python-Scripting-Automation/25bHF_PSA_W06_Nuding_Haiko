@@ -1,0 +1,5 @@
+[2026-05-09 01:34:38] |DEBUG| (Aufgabe-02) aufgabe_02.py:27 - Task Essence: Extract unique attacker IPs from failed logins and export to blacklist
+[2026-05-09 01:34:38] |DEBUG| (Aufgabe-02) aufgabe_02.py:28 - Applied Regex Pattern: (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+[2026-05-09 01:34:38] | INFO| (Aufgabe-02) aufgabe_02.py:35 - Scanning /home/vmadmin/Desktop/workstation/25bHF_PSA_W06_Nuding_Haiko/OpenSSH_2k.log for failed login attempts
+[2026-05-09 01:34:38] | INFO| (Aufgabe-02) aufgabe_02.py:44 - Identified 23 unique malicious IP addresses
+[2026-05-09 01:34:38] | INFO| (Aufgabe-02) aufgabe_02.py:57 - Blacklist successfully exported to /home/vmadmin/Desktop/workstation/25bHF_PSA_W06_Nuding_Haiko/outputs/blacklist_ips.txt

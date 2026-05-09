@@ -1,0 +1,7 @@
+[2026-05-09 02:56:30] |DEBUG| (Aufgabe-13) aufgabe_13.py:25 - Task Essence: Network Audit: Extracting physical MAC addresses
+[2026-05-09 02:56:30] | INFO| (Aufgabe-13) aufgabe_13.py:31 - Connecting to 192.168.110.10 for network audit...
+[2026-05-09 02:56:30] | INFO| (Aufgabe-13) aufgabe_13.py:46 - [MAC-ADDRESS]: 00:50:56:00:24:3b
+[2026-05-09 02:56:30] | INFO| (Aufgabe-13) aufgabe_13.py:46 - [MAC-ADDRESS]: 00:50:56:99:b9:33
+[2026-05-09 02:56:30] | INFO| (Aufgabe-13) aufgabe_13.py:46 - [MAC-ADDRESS]: 5a:6a:99:bd:66:d7
+[2026-05-09 02:56:30] | INFO| (Aufgabe-13) aufgabe_13.py:46 - [MAC-ADDRESS]: b6:d1:86:15:da:75
+[2026-05-09 02:56:30] |DEBUG| (Aufgabe-13) aufgabe_13.py:59 - SSH connection closed.

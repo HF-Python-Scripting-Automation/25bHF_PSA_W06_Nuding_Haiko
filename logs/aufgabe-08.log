@@ -1,0 +1,5 @@
+[2026-05-09 02:00:32] |DEBUG| (Aufgabe-08) aufgabe_08.py:24 - Task Essence: Verify MQTT Broker port via Docker logs
+[2026-05-09 02:00:32] | INFO| (Aufgabe-08) aufgabe_08.py:30 - Connecting to 192.168.110.12...
+[2026-05-09 02:00:32] | INFO| (Aufgabe-08) aufgabe_08.py:44 - Fetching logs for container: infra_mqtt-broker_1
+[2026-05-09 02:00:32] | INFO| (Aufgabe-08) aufgabe_08.py:62 - Result: The MQTT broker is correctly listening on the standard port 1883.
+[2026-05-09 02:00:32] |DEBUG| (Aufgabe-08) aufgabe_08.py:76 - SSH connection closed.
