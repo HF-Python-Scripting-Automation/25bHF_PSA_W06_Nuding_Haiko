@@ -1,19 +1,9 @@
 # Path: aufgaben/aufgabe_07.py
 import re
 import sys
-import os
 import argparse
 import paramiko
 from utils.logger_config import get_aufgabe_07_logger
-
-# Ensure project root is in path for 'utils'
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
-try:
-    logger = get_aufgabe_07_logger()
-except ModuleNotFoundError:
-    print("Critical: utils.logger_config not found. Run from project root.")
-    sys.exit(1)
 
 
 def main(args: argparse.Namespace) -> int:
@@ -21,6 +11,8 @@ def main(args: argparse.Namespace) -> int:
     Connects to server-3, reads vsftpd.log directly from the
     Metasploitable container, and extracts source IPs.
     """
+    logger = get_aufgabe_07_logger()
+
     # Infrastructure Details
     host: str = "192.168.110.12"
     user: str = "vmadmin"
